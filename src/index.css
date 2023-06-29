@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+button:active {
+  background-color: #ccc;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
